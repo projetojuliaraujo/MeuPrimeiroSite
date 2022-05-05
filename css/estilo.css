@@ -17,10 +17,27 @@ body{
 
 h1{
     text-align: center;
+    font-size: 2.5em;
+    color: aquamarine;
 }
-
 p{
     font-size: 1.5em;
     text-align: justify;
-    text-indent: 40px;
+    text-indent: 550px;
+}
+h2{
+    font-size: 2.0em;
+    text-indent: 550px;
+}
+.botao{
+    background-color: #00008B;
+    color: black;
+    width: 100em;
+    height: 50px;
+}
+.botao p{
+    padding-top: 11px;
+}
+.parag_meucaos > p{
+    color: azure;
 }
