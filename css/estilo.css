@@ -41,3 +41,19 @@ h2{
 .parag_meucaos > p{
     color: azure;
 }
+footer{
+    background-color: blueviolet;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer p{
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.center{
+    text-align: center;
+
+}
