@@ -1,34 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
+<<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>CSS Interno</title>
     <style>
         body{
-    background-color: #76768a;
+            background-color: blanchedalmond;
         }
-         h1{
-             font-size: 3em;
+        h1{
+            font-size: 2em;
+            color: chocolate;
+            background-color: rgb(223, 173, 132);
         }
         p{
-            background-color: aquamarine;
-            color: antiquewhite;
-            font-size: 3em;
+            background-color: darksalmon;
+            font-size: 1.4em;
         }
+        .fixo{
+            position: fixed;
+            width: 100%;
+            top: 0px;
+            z-index: 1000px;
+        }
+        .container{
+            margin-top: 60px;
+            
+        }
+        .main{
+            width: 100%;
+            height: 800px;
+            position: relative;
+        }
+        .topoesq{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            background-color:chocolate ;
+            text-align: center;
+
+        }
+        .topodir{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background-color:chocolate ;
+            text-align: center;
+        }
+        .centro{
+            position: absolute;
+            top: 400px;
+            left: 50%;
+            background-color:chocolate ;
+            text-align: center;
+        }
+        .baixoesq{
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            background-color:chocolate ;
+            text-align: center;
+        }
+        .baixodir{
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            background-color:chocolate ;
+            text-align: center;
+        }
+
 
 
     </style>
 </head>
 <body>
-    <h1>Aprendendo css interno</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere aliquid dolor alias libero blanditiis doloribus obcaecati ratione tempora, repellat eos ipsa perferendis quo, recusandae dignissimos soluta nam possimus sit nesciunt.</p>
-    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa distinctio sunt mollitia ducimus delectus debitis illo reiciendis maiores, accusamus, enim molestias, vitae possimus placeat quo repellat odio temporibus necessitatibus fugiat?</P>
-    <ul style="background-color: bisque;font-weight: bold;">
-        <li style="color: rgb(20, 20, 20);">Eu estou com fome</li>
-        <li style="color: rgb(14, 13, 13);">Eu quero comer</li>
-    </ul>
+    <header>
+        <h1 class="fixo">Aprendendo CSS interno</h1>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente esse, possimus quo id similique sequi illum atque veniam sunt nisi velit hic. Repellat perferendis accusamus placeat perspiciatis minima sequi expedita.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ducimus expedita consequatur quaerat laboriosam a earum vero veniam tenetur. Dolorem temporibus laudantium mollitia blanditiis velit fugiat pariatur labore ducimus non!</p>
+        <ul style="background-color: chocolate;">
+            <li style="color: cornsilk;font-size: 1.3em;">Estou com fome</li>
+            <li style="color: cornsilk;font-size: 1.3em;">Quero dormir</li>
+        </ul> -->
+    </header>
+    <div class="container">
+        <h1>Testando posições</h1>
+        <div class="main">
+            <div class="topoesq"> Topo a esquerda</div>
+            <div class="topodir"> Topo a direita</div>
+            <div class="centro"> centro</div>
+            <div class="baixoesq"> baixo a esquerda</div>
+            <div class="baixodir"> baixo a direita</div>
+        </div>
+    </div>
+    
+
 
 </body>
 </html>
