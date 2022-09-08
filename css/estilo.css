@@ -1,10 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #b1b1e9;
 }
 
-.menu{
+header{
     background-color: #A9A9A9(169,169,169);
-    padding: 1%;
+    padding: 2%;
+}
+
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 
@@ -37,6 +48,10 @@ figure{
     text-align: center;
 }
 
+.logo{
+    text-align: center;
+}
+
 h1{
     font-size: 2em;
     text-align: center;
@@ -54,6 +69,11 @@ h1{
     width: 50%;
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+.banner{
+
+    margin-top: 10%;
 }
 
 .container{
